@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('johnzengin');
 });
-Route::get('/welcome', function () {
-    return view('welcome');
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/subscribe', function () {
+    return view('subscribe');
 });
