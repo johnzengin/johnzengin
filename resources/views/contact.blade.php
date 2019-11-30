@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>JohnZengin-Change The World</title>
+    <title>JohnZengin-Subscribe</title>
     <link rel="stylesheet" href="/css/app.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -50,7 +50,7 @@
         }
 
         .mainheader{
-            padding-top: 15%;
+            padding-top: 5%;
             color:#2c3e50;
             text-align: center;
             font-family: Arial;
@@ -63,31 +63,11 @@
             text-align: center;
         }
 
-#read{
-    padding-bottom: 30px;
- background-color: white;
-    margin-bottom: 10px;
-    height:300px;
-    text-align: center;
-}
-        #watch{
-            padding-bottom: 30px;
-            background-color: white;
-            margin-bottom: 10px;
-            height:300px;
-            text-align: center;
+
+        h1{
+            color:#2c3e50;
         }
-        #create{
-            padding-bottom: 30px;
-            background-color: white;
-            margin-bottom: 10px;
-            height:300px;
-            text-align: center;
-        }
-h1{
-    color:#2c3e50;
-}
-        #cacc { background-color:#2c3e50; color:white; text-align:center; font-size: 20px; border:none; padding:0px; border-radius:10px;}
+        #cacc { background-color:#2c3e50; color:white; text-align:center; font-size: 15px; border:none; padding:8px; border-radius:5px;}
         #cacc:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.13);}
 
 
@@ -111,45 +91,43 @@ h1{
     </div>
 </div>
 
-<div class="row">
-    <div style="height:440px;width:90%;text-align: center" class="col-sm-4">
-        <img style="height: 100%" src="/images/me.jpg" />
-    </div>
-    <div style="height:440px;background-color: white" class="col-sm-8">
-        <h1 class="mainheader">I Am John Nice To Meet You.</h1>
-        <p class="underheader"> I am just someone who wants to do something that will have a meaning for the world.In this blog I am going to share my knowledge, experience and will
-            create events that I hope you will love and join.I don't have any power or special gift but we have it all together so don't
-            hesitate to make comments or contact with me.</p>
 
-    </div>
+<div style="background-color: white; ">
+    <h1 class="mainheader">Tell Me What It Is.</h1>
+    <p class="underheader">You Can tell or offer me anything you want.I would love to hear what you want to say.</p>
 </div>
-<br>
-<div>
-    <h1  class="mainheader" style="padding:0">Topics</h1>
-</div>
-<div>
-<div class="row" style="margin:10px">
-    <div id="read" class="col-xs-6 col-md-4">
-        <img style="height: 100%" src="/images/read.jpg" />
-<h4>Money</h4>
+<br><br><br><br><br>
+<form style="margin:20px"name="sentMessage" id="contactForm" novalidate>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-lg-12 text-center">
+            <div id="success"></div><br><br>
+            <button type="submit" id="cacc">Send Message</button>
+        </div>
     </div>
-    <div id="watch"   class="col-xs-6 col-md-4">
-        <img style="height: 100%" src="/images/read.jpg" />
-        <h4>Biz</h4>
-    </div>
-    <div id="create"   class="col-xs-6 col-md-4"><a href="www.google.com">
-        <img style="height: 100%" src="/images/read.jpg" /></a>
-        <h4>Books</h4>
-    </div>
-</div>
+</form>
 
-<br><br>
-<div style="text-align: center">
-    <button id="cacc" style="color:white;width:250px" type="submit">Read Them All</button>
-</div><br>
-</div>
-<br><br>
-
+<br><br><br><br><br>
 <footer>
     <div style="text-align: center"class="footer">
         <div class="row">
@@ -157,10 +135,10 @@ h1{
                 <span class="copyright">Copyright &copy;JohnZengin</span>
             </div>
             <div class="col-md-4">
-      <a href="subscribe" style="color:#2c3e50">   <p>Subscribe To My Newsletter</p></a>
-   </div>
+
+            </div>
             <div class="col-md-4">
-                <a href="contact" style="color:#2c3e50">   <p>Contact With Me.Let's Work Together</p></a>
+                <a href="subscribe" style="color:#2c3e50">   <p>Subscribe To My Newsletter</p></a>
             </div>
 
         </div>
